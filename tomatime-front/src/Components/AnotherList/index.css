@@ -1,0 +1,26 @@
+.container-another-list {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 4%;
+  border: 1px dashed #d9391e;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.container-another-list:hover {
+  background-color: #eeeeee;
+  border: 1px solid red;
+}
+
+.plus-list {
+  width: 27px;
+  color: #d9391e;
+}
+.add-task {
+  color: #d9391e;
+  font-size: small;
+  margin-right: auto;
+  margin-left: 2.5%;
+}

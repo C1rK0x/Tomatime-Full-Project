@@ -1,0 +1,75 @@
+.container-two-elements-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.container-two-elements-todo:hover {
+  background-color: #eeeeee;
+}
+
+.container-arrow {
+  width: 1rem;
+  margin-right: 5%;
+  position: relative;
+}
+
+.container-two-elements:hover {
+  background-color: #eeeeee;
+}
+
+.container-list {
+  display: flex;
+  align-items: center;
+}
+
+.check-list {
+  width: 27px;
+  color: #d9391e;
+}
+/* .msg-list {
+  color: #d9391e;
+  font-size: small;
+  margin-right: auto;
+  margin-left: 2.5%;
+} */
+
+.container-arrow-list {
+  position: relative;
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: 5%;
+  background-color: white;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  border: 0px;
+}
+
+.arrow-move-label {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  right: -10px;
+  white-space: nowrap;
+}
+
+.container-arrow:hover > .arrow-move-label {
+  display: block;
+  font-size: xx-small;
+  font-weight: bold;
+  background-color: #e0dfdf;
+  color: red;
+  padding: 0.2rem;
+  border-radius: 4px;
+}
+
+.arrow-list {
+  color: #d9391e;
+  width: 20px;
+  margin: auto;
+}
